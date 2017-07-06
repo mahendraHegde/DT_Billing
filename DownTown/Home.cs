@@ -45,7 +45,21 @@ namespace DownTown
         private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             int res;
-            this.Close();
+            string message = "Are You Sure to Quit?";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result;
+
+            // Displays the MessageBox.
+
+            result = MessageBox.Show(message, "", buttons);
+
+            if (result == System.Windows.Forms.DialogResult.Yes)
+            {
+                // Closes the parent form.
+
+                this.Close();
+
+            }
         }
     }
 }

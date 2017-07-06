@@ -34,6 +34,27 @@ D:\androidPr\DownTown\DownTown\obj\Debug\DownTown.Product_Add_Update.resources
 D:\androidPr\DownTown\DownTown\obj\Debug\DownTown.Home.resources
 D:\androidPr\DownTown\DownTown\obj\Debug\DownTown.Properties.Resources.resources
 D:\androidPr\DownTown\DownTown\obj\Debug\DownTown.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 D:\androidPr\DT_Billing\DownTown\bin\Debug\DownTown.exe.config
 D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.exe
 D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.pdb
+=======
+F:\RS\File1\DT_Billing\DownTown\bin\Debug\DownTown.exe.config
+F:\RS\File1\DT_Billing\DownTown\obj\Debug\DownTown.exe
+F:\RS\File1\DT_Billing\DownTown\obj\Debug\DownTown.pdb
+>>>>>>> 780f2b3c37d997559d1c179f21681eeb99e61fba
+D:\androidPr\DT_Billing\DownTown\bin\Debug\DownTown.exe
+D:\androidPr\DT_Billing\DownTown\bin\Debug\DownTown.pdb
+D:\androidPr\DT_Billing\DownTown\bin\Debug\EntityFramework.dll
+D:\androidPr\DT_Billing\DownTown\bin\Debug\EntityFramework.SqlServer.dll
+D:\androidPr\DT_Billing\DownTown\bin\Debug\System.Data.SQLite.dll
+D:\androidPr\DT_Billing\DownTown\bin\Debug\System.Data.SQLite.EF6.dll
+D:\androidPr\DT_Billing\DownTown\bin\Debug\System.Data.SQLite.Linq.dll
+D:\androidPr\DT_Billing\DownTown\bin\Debug\EntityFramework.xml
+D:\androidPr\DT_Billing\DownTown\bin\Debug\EntityFramework.SqlServer.xml
+D:\androidPr\DT_Billing\DownTown\bin\Debug\System.Data.SQLite.xml
+D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.csprojResolveAssemblyReference.cache
+D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.Product_Add_Update.resources
+D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.Home.resources
+D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.Properties.Resources.resources
+D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.csproj.GenerateResource.Cache

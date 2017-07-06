@@ -10,6 +10,6 @@ namespace DownTown
     
     class DTDB
     {
-        SQLiteConnection
+        //SQLiteConnection
     }
 }
