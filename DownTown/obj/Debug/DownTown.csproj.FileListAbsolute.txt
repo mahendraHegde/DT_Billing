@@ -34,3 +34,6 @@ D:\androidPr\DownTown\DownTown\obj\Debug\DownTown.Product_Add_Update.resources
 D:\androidPr\DownTown\DownTown\obj\Debug\DownTown.Home.resources
 D:\androidPr\DownTown\DownTown\obj\Debug\DownTown.Properties.Resources.resources
 D:\androidPr\DownTown\DownTown\obj\Debug\DownTown.csproj.GenerateResource.Cache
+D:\androidPr\DT_Billing\DownTown\bin\Debug\DownTown.exe.config
+D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.exe
+D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.pdb
