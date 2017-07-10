@@ -13,9 +13,11 @@ namespace DownTown
     public partial class Home : Form
     {
         Form product_add_form = null;
+        DTDB Db;
         public Home()
         {
             InitializeComponent();
+            Db=new DTDB();
         }
 
         private void Home_Load(object sender, EventArgs e)
