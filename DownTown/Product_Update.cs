@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DownTown
 {
-    public partial class Product_Add_Update : Form
+    public partial class Product_Update : Form
     {
-        public Product_Add_Update()
+        public Product_Update()
         {
             InitializeComponent();
         }

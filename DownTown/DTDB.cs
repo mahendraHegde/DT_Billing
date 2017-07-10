@@ -20,7 +20,7 @@ namespace DownTown
             conn = new SQLiteConnection("Data Source=DTDB.sqlite;Version=3;");
             conn.Open();
             //sql = "create table IF NOT EXISTS "+TABLE_CAT+" (id int autoincrement,name varchar(20)) ";
-            sql = "create table  IF NOT EXISTS " + TABLE_ITEMS + " (code INT,name varchar(50),qty INT,ml INT,category varchar(12),tax INT(1),fc real,ac real,oc real,room real,parcel real,garden real) ";
+            sql = "create table  IF NOT EXISTS " + TABLE_ITEMS + " (code INT PRIMARY KEY,name varchar(50),ml INT,category varchar(12),tax INT(1),fc real,ac real,oc real,room real,parcel real,garden real) ";
             ExecuteNonQuery(sql);
             sql = "create table  IF NOT EXISTS " + TABLE_STOCK + " (code INT,qty INT,ml INT) ";
             ExecuteNonQuery(sql);

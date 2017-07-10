@@ -1,6 +1,6 @@
 ﻿namespace DownTown
 {
-    partial class Product_Add_Update
+    partial class Product_Update
     {
         /// <summary>
         /// Required designer variable.
