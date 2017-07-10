@@ -35,6 +35,7 @@
             this.billGenerateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addUpdateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salesReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupwiseReoprtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,6 +49,8 @@
             this.stockToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.softDrinksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.duplicateBillToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,12 +75,14 @@
             this.transactionToolStripMenuItem.Name = "transactionToolStripMenuItem";
             this.transactionToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.transactionToolStripMenuItem.Text = "Home";
+            this.transactionToolStripMenuItem.Click += new System.EventHandler(this.transactionToolStripMenuItem_Click);
             // 
             // transactionToolStripMenuItem1
             // 
             this.transactionToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.kOTBillToolStripMenuItem,
-            this.billGenerateToolStripMenuItem});
+            this.billGenerateToolStripMenuItem,
+            this.duplicateBillToolStripMenuItem});
             this.transactionToolStripMenuItem1.Name = "transactionToolStripMenuItem1";
             this.transactionToolStripMenuItem1.Size = new System.Drawing.Size(52, 20);
             this.transactionToolStripMenuItem1.Text = "Billing";
@@ -85,19 +90,20 @@
             // kOTBillToolStripMenuItem
             // 
             this.kOTBillToolStripMenuItem.Name = "kOTBillToolStripMenuItem";
-            this.kOTBillToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.kOTBillToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.kOTBillToolStripMenuItem.Text = "KOT / Bill";
             // 
             // billGenerateToolStripMenuItem
             // 
             this.billGenerateToolStripMenuItem.Name = "billGenerateToolStripMenuItem";
-            this.billGenerateToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.billGenerateToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.billGenerateToolStripMenuItem.Text = "Parcel Bill";
             // 
             // productToolStripMenuItem
             // 
             this.productToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addUpdateToolStripMenuItem});
+            this.addUpdateToolStripMenuItem,
+            this.updateToolStripMenuItem});
             this.productToolStripMenuItem.Name = "productToolStripMenuItem";
             this.productToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.productToolStripMenuItem.Text = "Product";
@@ -105,9 +111,15 @@
             // addUpdateToolStripMenuItem
             // 
             this.addUpdateToolStripMenuItem.Name = "addUpdateToolStripMenuItem";
-            this.addUpdateToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
-            this.addUpdateToolStripMenuItem.Text = "Add / Update";
+            this.addUpdateToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.addUpdateToolStripMenuItem.Text = "Add ";
             this.addUpdateToolStripMenuItem.Click += new System.EventHandler(this.addUpdateToolStripMenuItem_Click);
+            // 
+            // updateToolStripMenuItem
+            // 
+            this.updateToolStripMenuItem.Name = "updateToolStripMenuItem";
+            this.updateToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.updateToolStripMenuItem.Text = "Update";
             // 
             // reportToolStripMenuItem
             // 
@@ -133,7 +145,8 @@
             // 
             this.groupwiseReoprtToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.liquorToolStripMenuItem,
-            this.foodToolStripMenuItem});
+            this.foodToolStripMenuItem,
+            this.softDrinksToolStripMenuItem});
             this.groupwiseReoprtToolStripMenuItem.Name = "groupwiseReoprtToolStripMenuItem";
             this.groupwiseReoprtToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
             this.groupwiseReoprtToolStripMenuItem.Text = "Groupwise Reoprt";
@@ -141,13 +154,13 @@
             // liquorToolStripMenuItem
             // 
             this.liquorToolStripMenuItem.Name = "liquorToolStripMenuItem";
-            this.liquorToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
+            this.liquorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.liquorToolStripMenuItem.Text = "Liquor";
             // 
             // foodToolStripMenuItem
             // 
             this.foodToolStripMenuItem.Name = "foodToolStripMenuItem";
-            this.foodToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
+            this.foodToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.foodToolStripMenuItem.Text = "Food";
             // 
             // cancelledBillToolStripMenuItem
@@ -199,6 +212,18 @@
             this.logOutToolStripMenuItem.Text = "Log Out";
             this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
+            // softDrinksToolStripMenuItem
+            // 
+            this.softDrinksToolStripMenuItem.Name = "softDrinksToolStripMenuItem";
+            this.softDrinksToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.softDrinksToolStripMenuItem.Text = "Soft Drinks";
+            // 
+            // duplicateBillToolStripMenuItem
+            // 
+            this.duplicateBillToolStripMenuItem.Name = "duplicateBillToolStripMenuItem";
+            this.duplicateBillToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.duplicateBillToolStripMenuItem.Text = "Duplicate Bill";
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -243,6 +268,9 @@
         private System.Windows.Forms.ToolStripMenuItem qtywiseSalesReportToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem liquorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem foodToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem updateToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem duplicateBillToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem softDrinksToolStripMenuItem;
     }
 }
 

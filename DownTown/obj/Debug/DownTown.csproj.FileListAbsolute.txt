@@ -58,3 +58,7 @@ D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.Product_Add_Update.resources
 D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.Home.resources
 D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.Properties.Resources.resources
 D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.csproj.GenerateResource.Cache
+D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.Product_Add.resources
+D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.login.resources
+D:\androidPr\DT_Billing\DownTown\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+D:\androidPr\DT_Billing\DownTown\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml

@@ -12,6 +12,7 @@ namespace DownTown
 {
     public partial class Home : Form
     {
+        Form product_add_form = null;
         public Home()
         {
             InitializeComponent();
@@ -35,16 +36,15 @@ namespace DownTown
 
         private void addUpdateToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var f = new Product_Add_Update();
-            f.MdiParent = this;
-            f.Dock = DockStyle.Fill;
-         
-            f.Show();
+           product_add_form= new Product_Add();
+            product_add_form.MdiParent = this;
+            product_add_form.Dock = DockStyle.Fill;
+
+            product_add_form.Show();
         }
 
         private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            int res;
             string message = "Are You Sure to Quit?";
             MessageBoxButtons buttons = MessageBoxButtons.YesNo;
             DialogResult result;
@@ -56,10 +56,17 @@ namespace DownTown
             if (result == System.Windows.Forms.DialogResult.Yes)
             {
                 // Closes the parent form.
-
                 this.Close();
-
             }
+        }
+
+        private void transactionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (product_add_form != null)
+            {
+                product_add_form.Close();
+            }
+            this.Show();
         }
     }
 }
