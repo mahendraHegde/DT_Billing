@@ -33,6 +33,7 @@
             this.transactionToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.kOTBillToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.billGenerateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.duplicateBillToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addUpdateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.updateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,16 +42,18 @@
             this.groupwiseReoprtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.liquorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.foodToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.softDrinksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cancelledBillToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cancledKOTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.daywiseSalesReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.qtywiseSalesReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stockToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.settingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.taxRateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.changePasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.softDrinksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.duplicateBillToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -90,14 +93,20 @@
             // kOTBillToolStripMenuItem
             // 
             this.kOTBillToolStripMenuItem.Name = "kOTBillToolStripMenuItem";
-            this.kOTBillToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.kOTBillToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.kOTBillToolStripMenuItem.Text = "KOT / Bill";
             // 
             // billGenerateToolStripMenuItem
             // 
             this.billGenerateToolStripMenuItem.Name = "billGenerateToolStripMenuItem";
-            this.billGenerateToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.billGenerateToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.billGenerateToolStripMenuItem.Text = "Parcel Bill";
+            // 
+            // duplicateBillToolStripMenuItem
+            // 
+            this.duplicateBillToolStripMenuItem.Name = "duplicateBillToolStripMenuItem";
+            this.duplicateBillToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.duplicateBillToolStripMenuItem.Text = "Duplicate Bill";
             // 
             // productToolStripMenuItem
             // 
@@ -111,15 +120,16 @@
             // addUpdateToolStripMenuItem
             // 
             this.addUpdateToolStripMenuItem.Name = "addUpdateToolStripMenuItem";
-            this.addUpdateToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.addUpdateToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.addUpdateToolStripMenuItem.Text = "Add ";
             this.addUpdateToolStripMenuItem.Click += new System.EventHandler(this.addUpdateToolStripMenuItem_Click);
             // 
             // updateToolStripMenuItem
             // 
             this.updateToolStripMenuItem.Name = "updateToolStripMenuItem";
-            this.updateToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.updateToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.updateToolStripMenuItem.Text = "Update";
+            this.updateToolStripMenuItem.Click += new System.EventHandler(this.updateToolStripMenuItem_Click);
             // 
             // reportToolStripMenuItem
             // 
@@ -154,14 +164,20 @@
             // liquorToolStripMenuItem
             // 
             this.liquorToolStripMenuItem.Name = "liquorToolStripMenuItem";
-            this.liquorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.liquorToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.liquorToolStripMenuItem.Text = "Liquor";
             // 
             // foodToolStripMenuItem
             // 
             this.foodToolStripMenuItem.Name = "foodToolStripMenuItem";
-            this.foodToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.foodToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.foodToolStripMenuItem.Text = "Food";
+            // 
+            // softDrinksToolStripMenuItem
+            // 
+            this.softDrinksToolStripMenuItem.Name = "softDrinksToolStripMenuItem";
+            this.softDrinksToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.softDrinksToolStripMenuItem.Text = "Soft Drinks";
             // 
             // cancelledBillToolStripMenuItem
             // 
@@ -195,15 +211,41 @@
             // 
             // stockToolStripMenuItem
             // 
+            this.stockToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.updateToolStripMenuItem1});
             this.stockToolStripMenuItem.Name = "stockToolStripMenuItem";
             this.stockToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.stockToolStripMenuItem.Text = "Stock";
             // 
+            // updateToolStripMenuItem1
+            // 
+            this.updateToolStripMenuItem1.Name = "updateToolStripMenuItem1";
+            this.updateToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.updateToolStripMenuItem1.Text = "Update";
+            this.updateToolStripMenuItem1.Click += new System.EventHandler(this.updateToolStripMenuItem1_Click);
+            // 
             // settingToolStripMenuItem
             // 
+            this.settingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.taxRateToolStripMenuItem,
+            this.changePasswordToolStripMenuItem});
             this.settingToolStripMenuItem.Name = "settingToolStripMenuItem";
             this.settingToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.settingToolStripMenuItem.Text = "Setting";
+            // 
+            // taxRateToolStripMenuItem
+            // 
+            this.taxRateToolStripMenuItem.Name = "taxRateToolStripMenuItem";
+            this.taxRateToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.taxRateToolStripMenuItem.Text = "Tax Rate";
+            this.taxRateToolStripMenuItem.Click += new System.EventHandler(this.taxRateToolStripMenuItem_Click);
+            // 
+            // changePasswordToolStripMenuItem
+            // 
+            this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
+            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.changePasswordToolStripMenuItem.Text = "Change Password";
+            this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.changePasswordToolStripMenuItem_Click);
             // 
             // logOutToolStripMenuItem
             // 
@@ -211,18 +253,6 @@
             this.logOutToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.logOutToolStripMenuItem.Text = "Log Out";
             this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
-            // 
-            // softDrinksToolStripMenuItem
-            // 
-            this.softDrinksToolStripMenuItem.Name = "softDrinksToolStripMenuItem";
-            this.softDrinksToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.softDrinksToolStripMenuItem.Text = "Soft Drinks";
-            // 
-            // duplicateBillToolStripMenuItem
-            // 
-            this.duplicateBillToolStripMenuItem.Name = "duplicateBillToolStripMenuItem";
-            this.duplicateBillToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.duplicateBillToolStripMenuItem.Text = "Duplicate Bill";
             // 
             // Home
             // 
@@ -271,6 +301,9 @@
         private System.Windows.Forms.ToolStripMenuItem updateToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem duplicateBillToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem softDrinksToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem taxRateToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem changePasswordToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem updateToolStripMenuItem1;
     }
 }
 

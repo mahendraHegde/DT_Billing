@@ -22,7 +22,9 @@ namespace DownTown
         {
             InitializeComponent();
             comboSubGroup.Visible = false;
+            lblSubGroup.Visible = false;
             txtML.Visible = false;
+            lblML.Visible = false;
         }
 
         private void Product_Add_Update_Load(object sender, EventArgs e)
@@ -135,9 +137,16 @@ namespace DownTown
             if (((ComboBox)sender).SelectedIndex == 0)
             {
                 comboSubGroup.Visible = false;
+                comboSubGroup.SelectedIndex = -1;
+                lblSubGroup.Visible = false;
+                txtML.Visible = false;
+                lblML.Visible = false;
             }
             else
+            {
+                lblSubGroup.Visible = true;
                 comboSubGroup.Visible = true;
+            }
         }
 
         private void comboSubGroup_SelectedIndexChanged(object sender, EventArgs e)
@@ -145,10 +154,14 @@ namespace DownTown
 
             if (((ComboBox)sender).Text.ToUpper().Contains("LIQUOR"))
             {
+                lblML.Visible = true;
                 txtML.Visible = true;
             }
             else
+            {
+                lblML.Visible = false;
                 txtML.Visible = false;
+            }
         }
 
         private void txtPrice_TextChanged(object sender, EventArgs e)
@@ -180,6 +193,27 @@ namespace DownTown
                 txt.Text = preveText;
             }
 
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtCode.Text = "";
+            txtName.Text = "";
+            comboGroup.SelectedIndex = -1;
+            comboSubGroup.SelectedIndex = -1;
+            comboSubGroup.Visible = false;
+            lblSubGroup.Visible = false;
+            txtQty.Text = "";
+            lblML.Visible = false;
+            txtML.Text = "";
+            txtML.Visible = false;
+            chkTax.Checked = false;
+            txtFc.Text = "";
+            txtAc.Text = "";
+            txtOc.Text = "";
+            txtRoom.Text = "";
+            txtParcel.Text = "";
+            txtGarden.Text = "";
         }
     }
 }

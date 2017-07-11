@@ -13,6 +13,10 @@ namespace DownTown
     public partial class Home : Form
     {
         Form product_add_form = null;
+        Form product_update_form = null;
+        Form tax = null;
+        Form change_password = null;
+        Form stock_update = null;
         DTDB Db;
         public Home()
         {
@@ -38,7 +42,7 @@ namespace DownTown
 
         private void addUpdateToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           product_add_form= new Product_Add();
+            product_add_form = new Product_Add();
             product_add_form.MdiParent = this;
             product_add_form.Dock = DockStyle.Fill;
 
@@ -64,11 +68,38 @@ namespace DownTown
 
         private void transactionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (product_add_form != null)
+            for (int i = Application.OpenForms.Count - 1; i >= 0; i--)
             {
-                product_add_form.Close();
+                if (Application.OpenForms[i].Name != "Home")
+                    Application.OpenForms[i].Close();
             }
             this.Show();
+        }
+
+        private void updateToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            product_update_form = new Product_Update();
+            product_update_form.MdiParent = this;
+            product_update_form.Dock = DockStyle.Fill;
+            product_update_form.Show();
+        }
+
+        private void taxRateToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tax = new Tax();
+            tax.ShowDialog();
+        }
+
+        private void changePasswordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            change_password = new Change_Password();
+            change_password.ShowDialog();
+        }
+
+        private void updateToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            stock_update = new Stock_Update();
+            stock_update.ShowDialog();
         }
     }
 }

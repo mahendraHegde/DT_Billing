@@ -74,6 +74,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Change_Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change_Password.designer.cs">
+      <DependentUpon>Change_Password.cs</DependentUpon>
+    </Compile>
     <Compile Include="DTDB.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -87,31 +93,46 @@
     <Compile Include="Product_Add.Designer.cs">
       <DependentUpon>Product_Add.cs</DependentUpon>
     </Compile>
-    <Compile Include="Product_Update.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Product_Update.Designer.cs">
-      <DependentUpon>Product_Update.cs</DependentUpon>
-    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="Product_Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product_Update.Designer.cs">
+      <DependentUpon>Product_Update.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stock_Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock_Update.Designer.cs">
+      <DependentUpon>Stock_Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tax.designer.cs">
+      <DependentUpon>Tax.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Change_Password.resx">
+      <DependentUpon>Change_Password.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Product_Add.resx">
       <DependentUpon>Product_Add.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Product_Update.resx">
-      <DependentUpon>Product_Update.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product_Update.resx">
+      <DependentUpon>Product_Update.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -123,6 +144,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Stock_Update.resx">
+      <DependentUpon>Stock_Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tax.resx">
+      <DependentUpon>Tax.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
