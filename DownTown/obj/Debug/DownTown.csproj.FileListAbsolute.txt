@@ -59,3 +59,5 @@ D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.login.resources
 D:\androidPr\DT_Billing\DownTown\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
 D:\androidPr\DT_Billing\DownTown\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
 D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.Product_Update.resources
+D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.Change_Password.resources
+D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.Tax.resources
