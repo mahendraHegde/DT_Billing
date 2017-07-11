@@ -61,3 +61,28 @@ D:\androidPr\DT_Billing\DownTown\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
 D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.Product_Update.resources
 D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.Change_Password.resources
 D:\androidPr\DT_Billing\DownTown\obj\Debug\DownTown.Tax.resources
+<<<<<<< HEAD
+=======
+F:\RS\File1\DT_Billing\DownTown\obj\Debug\DownTown.csprojResolveAssemblyReference.cache
+F:\RS\File1\DT_Billing\DownTown\obj\Debug\DownTown.login.resources
+F:\RS\File1\DT_Billing\DownTown\obj\Debug\DownTown.Product_Add.resources
+F:\RS\File1\DT_Billing\DownTown\obj\Debug\DownTown.Home.resources
+F:\RS\File1\DT_Billing\DownTown\obj\Debug\DownTown.Properties.Resources.resources
+F:\RS\File1\DT_Billing\DownTown\obj\Debug\DownTown.csproj.GenerateResource.Cache
+F:\RS\File1\DT_Billing\DownTown\bin\Debug\DownTown.exe
+F:\RS\File1\DT_Billing\DownTown\bin\Debug\DownTown.pdb
+F:\RS\File1\DT_Billing\DownTown\bin\Debug\EntityFramework.dll
+F:\RS\File1\DT_Billing\DownTown\bin\Debug\EntityFramework.SqlServer.dll
+F:\RS\File1\DT_Billing\DownTown\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+F:\RS\File1\DT_Billing\DownTown\bin\Debug\System.Data.SQLite.dll
+F:\RS\File1\DT_Billing\DownTown\bin\Debug\System.Data.SQLite.EF6.dll
+F:\RS\File1\DT_Billing\DownTown\bin\Debug\System.Data.SQLite.Linq.dll
+F:\RS\File1\DT_Billing\DownTown\bin\Debug\EntityFramework.xml
+F:\RS\File1\DT_Billing\DownTown\bin\Debug\EntityFramework.SqlServer.xml
+F:\RS\File1\DT_Billing\DownTown\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+F:\RS\File1\DT_Billing\DownTown\bin\Debug\System.Data.SQLite.xml
+F:\RS\File1\DT_Billing\DownTown\obj\Debug\DownTown.Change_Password.resources
+F:\RS\File1\DT_Billing\DownTown\obj\Debug\DownTown.Tax.resources
+F:\RS\File1\DT_Billing\DownTown\obj\Debug\DownTown.Product_Update.resources
+F:\RS\File1\DT_Billing\DownTown\obj\Debug\DownTown.Stock_Update.resources
+>>>>>>> e18a3dc73b8cc0a127791fdaffc5176579391414

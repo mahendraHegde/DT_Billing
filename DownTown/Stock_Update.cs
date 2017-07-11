@@ -10,13 +10,12 @@ using System.Windows.Forms;
 
 namespace DownTown
 {
-    public partial class Tax : Form
+    public partial class Stock_Update : Form
     {
-        public Tax()
+        public Stock_Update()
         {
             InitializeComponent();
         }
-
         private const int WM_NCLBUTTONDBLCLK = 0x00A3; //double click on a title bar a.k.a. non-client area of the form
 
         protected override void WndProc(ref Message m)
@@ -31,13 +30,8 @@ namespace DownTown
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            txtCGST.Text = "";
-            txtSGST.Text = "";
-        }
-
-        private void btnSet_Click(object sender, EventArgs e)
-        {
-
+            txtQty.Text = "";
+            comboCodeName.SelectedIndex = -1;
         }
     }
 }

@@ -16,10 +16,5 @@ namespace DownTown
         {
             InitializeComponent();
         }
-
-        private void Product_Add_Update_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

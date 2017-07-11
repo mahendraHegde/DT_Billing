@@ -16,6 +16,7 @@ namespace DownTown
         Form product_update_form = null;
         Form tax = null;
         Form change_password = null;
+        Form stock_update = null;
         DTDB Db;
         public Home()
         {
@@ -93,6 +94,12 @@ namespace DownTown
         {
             change_password = new Change_Password();
             change_password.ShowDialog();
+        }
+
+        private void updateToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            stock_update = new Stock_Update();
+            stock_update.ShowDialog();
         }
     }
 }
